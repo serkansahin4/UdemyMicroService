@@ -3,9 +3,34 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{47D3BC67-CA13-48F1-BD87-C33E26288C59}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{5B784726-3377-4CF2-B066-F5F903B3C59A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Udemy.Services.Catalog", "Services\Catalog\Udemy.Services.Catalog\Udemy.Services.Catalog.csproj", "{B05710B5-BEF8-402C-BC40-3D91507E7828}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{244715F2-C297-4DA5-8868-1C59075D7E0D}"
+	ProjectSection(SolutionItems) = preProject
+		Ports.txt = Ports.txt
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B05710B5-BEF8-402C-BC40-3D91507E7828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B05710B5-BEF8-402C-BC40-3D91507E7828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B05710B5-BEF8-402C-BC40-3D91507E7828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B05710B5-BEF8-402C-BC40-3D91507E7828}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5B784726-3377-4CF2-B066-F5F903B3C59A} = {47D3BC67-CA13-48F1-BD87-C33E26288C59}
+		{B05710B5-BEF8-402C-BC40-3D91507E7828} = {5B784726-3377-4CF2-B066-F5F903B3C59A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {757DB872-EF09-4F43-89B6-B32835E4530B}
