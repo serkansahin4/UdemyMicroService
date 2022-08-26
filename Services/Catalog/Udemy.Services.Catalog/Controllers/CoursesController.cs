@@ -1,11 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Udemy.Services.Catalog.Services;
+using Udemy.Shared.ControllerBases;
 
 namespace Udemy.Services.Catalog.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CoursesController : Controller
+    public class CoursesController : CustomBaseController
     {
         private readonly ICourseService _courseService;
         public CoursesController(ICourseService courseService)
@@ -17,11 +18,14 @@ namespace Udemy.Services.Catalog.Controllers
         public async Task<IActionResult> GetById(string id)
         {
             var response = await _courseService.GetByIdAsync(id);
-            if (response.StatusCode==404)
-            {
-                return NotFound(response.Errors);
-            }
-            return View(response);
+            return CreateActionResultInstance(response);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
+        {
+            var response = await _courseService.GetAllAsync();
+            return CreateActionResultInstance(response);
         }
     }
 }

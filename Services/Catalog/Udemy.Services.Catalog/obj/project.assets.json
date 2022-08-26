@@ -378,7 +378,10 @@
         },
         "runtime": {
           "bin/placeholder/Udemy.Shared.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
