@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "x4y0EItb9J3Mt/QV8kMzK0wW/gXCNoXrl7Wq1Fi5B20=",
+  "Source": "Udemy.Services.PhotoStock",
+  "BasePath": "_content/Udemy.Services.PhotoStock",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Udemy.Services.PhotoStock\\wwwroot",
+      "Source": "Udemy.Services.PhotoStock",
+      "ContentRoot": "C:\\Users\\Serkan\\Desktop\\UdemyMicroservice\\Services\\PhotoStock\\Udemy.Services.PhotoStock\\wwwroot\\",
+      "BasePath": "_content/Udemy.Services.PhotoStock",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
