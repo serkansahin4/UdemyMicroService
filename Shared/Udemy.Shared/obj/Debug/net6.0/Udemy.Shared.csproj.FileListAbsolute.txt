@@ -1,0 +1,12 @@
+C:\Users\Serkan\Desktop\UdemyMicroservice\Shared\Udemy.Shared\bin\Debug\net6.0\Udemy.Shared.deps.json
+C:\Users\Serkan\Desktop\UdemyMicroservice\Shared\Udemy.Shared\bin\Debug\net6.0\Udemy.Shared.dll
+C:\Users\Serkan\Desktop\UdemyMicroservice\Shared\Udemy.Shared\bin\Debug\net6.0\Udemy.Shared.pdb
+C:\Users\Serkan\Desktop\UdemyMicroservice\Shared\Udemy.Shared\obj\Debug\net6.0\Udemy.Shared.csproj.AssemblyReference.cache
+C:\Users\Serkan\Desktop\UdemyMicroservice\Shared\Udemy.Shared\obj\Debug\net6.0\Udemy.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Serkan\Desktop\UdemyMicroservice\Shared\Udemy.Shared\obj\Debug\net6.0\Udemy.Shared.AssemblyInfoInputs.cache
+C:\Users\Serkan\Desktop\UdemyMicroservice\Shared\Udemy.Shared\obj\Debug\net6.0\Udemy.Shared.AssemblyInfo.cs
+C:\Users\Serkan\Desktop\UdemyMicroservice\Shared\Udemy.Shared\obj\Debug\net6.0\Udemy.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Serkan\Desktop\UdemyMicroservice\Shared\Udemy.Shared\obj\Debug\net6.0\Udemy.Shared.dll
+C:\Users\Serkan\Desktop\UdemyMicroservice\Shared\Udemy.Shared\obj\Debug\net6.0\refint\Udemy.Shared.dll
+C:\Users\Serkan\Desktop\UdemyMicroservice\Shared\Udemy.Shared\obj\Debug\net6.0\Udemy.Shared.pdb
+C:\Users\Serkan\Desktop\UdemyMicroservice\Shared\Udemy.Shared\obj\Debug\net6.0\ref\Udemy.Shared.dll

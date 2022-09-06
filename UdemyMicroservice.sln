@@ -7,12 +7,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{47
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{5B784726-3377-4CF2-B066-F5F903B3C59A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Udemy.Services.Catalog", "Services\Catalog\Udemy.Services.Catalog\Udemy.Services.Catalog.csproj", "{B05710B5-BEF8-402C-BC40-3D91507E7828}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Udemy.Services.Catalog", "Services\Catalog\Udemy.Services.Catalog\Udemy.Services.Catalog.csproj", "{B05710B5-BEF8-402C-BC40-3D91507E7828}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{244715F2-C297-4DA5-8868-1C59075D7E0D}"
 	ProjectSection(SolutionItems) = preProject
 		Ports.txt = Ports.txt
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{96BC3078-8760-4F30-B9DF-6921EFF260BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Udemy.Shared", "Shared\Udemy.Shared\Udemy.Shared.csproj", "{A6A4312F-BFF7-4B09-84B4-7D080FCEEEDD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityServer", "{58790055-0D10-4A21-9F67-DBC4BC3685E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Udemy.IdentityServer", "IdentityServer\Udemy.IdentityServer\Udemy.IdentityServer.csproj", "{3B0FC99B-1B46-4738-9413-6D7F6A5D9FF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +32,14 @@ Global
 		{B05710B5-BEF8-402C-BC40-3D91507E7828}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B05710B5-BEF8-402C-BC40-3D91507E7828}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B05710B5-BEF8-402C-BC40-3D91507E7828}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6A4312F-BFF7-4B09-84B4-7D080FCEEEDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6A4312F-BFF7-4B09-84B4-7D080FCEEEDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6A4312F-BFF7-4B09-84B4-7D080FCEEEDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6A4312F-BFF7-4B09-84B4-7D080FCEEEDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B0FC99B-1B46-4738-9413-6D7F6A5D9FF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B0FC99B-1B46-4738-9413-6D7F6A5D9FF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B0FC99B-1B46-4738-9413-6D7F6A5D9FF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B0FC99B-1B46-4738-9413-6D7F6A5D9FF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -31,6 +47,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{5B784726-3377-4CF2-B066-F5F903B3C59A} = {47D3BC67-CA13-48F1-BD87-C33E26288C59}
 		{B05710B5-BEF8-402C-BC40-3D91507E7828} = {5B784726-3377-4CF2-B066-F5F903B3C59A}
+		{A6A4312F-BFF7-4B09-84B4-7D080FCEEEDD} = {96BC3078-8760-4F30-B9DF-6921EFF260BD}
+		{3B0FC99B-1B46-4738-9413-6D7F6A5D9FF9} = {58790055-0D10-4A21-9F67-DBC4BC3685E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {757DB872-EF09-4F43-89B6-B32835E4530B}

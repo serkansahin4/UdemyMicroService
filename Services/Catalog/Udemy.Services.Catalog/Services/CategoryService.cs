@@ -7,7 +7,7 @@ using Udemy.Shared.Dtos;
 
 namespace Udemy.Services.Catalog.Services
 {
-    public class CategoryService
+    public class CategoryService:ICategoryService
     {
         private readonly IMongoCollection<Category> _categoryCollection;
         private readonly IMapper _mapper;
@@ -26,10 +26,11 @@ namespace Udemy.Services.Catalog.Services
             var categories = await _categoryCollection.Find(x => true).ToListAsync();
             return Response<List<CategoryDto>>.Success(_mapper.Map<List<CategoryDto>>(categories), 200);
         }
-        public async Task<Response<CategoryCreateDto>> CreateAsync(CategoryCreateDto categoryCreateDto)
+        public async Task<Response<CategoryDto>> CreateAsync(CategoryCreateDto categoryCreateDto)
         {
-            await _categoryCollection.InsertOneAsync(_mapper.Map<Category>(categoryCreateDto));
-            return Response<CategoryCreateDto>.Success(categoryCreateDto, 200);
+            var category = _mapper.Map<Category>(categoryCreateDto);
+            await _categoryCollection.InsertOneAsync(category);
+            return Response<CategoryDto>.Success(_mapper.Map<CategoryDto>(category), 200);
         }
         public async Task<Response<CategoryDto>> GetByIdAsync(string id)
         {
